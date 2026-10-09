@@ -2,14 +2,15 @@
 
 .header {
   display: grid;
-  grid-template-columns: 1fr 148px 1fr;
+  grid-template-columns: 1fr 170px 1fr;
   align-items: center;
-  padding: 95px 50px 100px;
+  padding: 90px 50px 100px;
 }
 
 .address {
   justify-self: end;
   max-width: 240px;
+  margin-right: 40px;
   font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
@@ -39,10 +40,6 @@
   text-decoration: none;
 }
 
-.header__logo {
-  justify-self: flex-end;
-}
-
 .address-tel,
 .address-email {
   border-bottom: 1px solid;
@@ -53,6 +50,7 @@
 
 .hero {
   position: relative;
+  min-height: 757px;
   margin-bottom: 180px;
   padding: 165px 50px 50px;
   background-image: url(../images/cover.jpg);
@@ -82,10 +80,12 @@
 
 .hero__element-2 {
   align-self: center;
+  margin-right: -0.3em;
 }
 
 .hero__element-3 {
   align-self: flex-end;
+  margin-right: -0.3em;
 }
 
 .hero__cover {
@@ -157,7 +157,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   list-style: none;
 }
 
@@ -241,7 +241,7 @@
   display: grid;
   grid-template-columns: 240px auto;
   gap: 0 72px;
-  margin-top: 136px;
+  margin-top: 127px;
   padding: 35px 24px 0 71px;
 }
 
